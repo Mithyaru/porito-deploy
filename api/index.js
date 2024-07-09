@@ -7,10 +7,14 @@ const app = express()
 
 app.use(cors())
 
-app.get('/', (req, res) => 
-res.json('Tentativa 1')
+app.get('/', (req, res) => {
+    let tagLine = req.query.tag
+    let gameName = req.query.username
+res.json('Tentativa 1', {tagLine, gameName})
+}
 )
 
 app.get('/about', (req, res) => res.send('About Page Route'));
+
 
 app.listen(port, () => console.log('server is running on ' + port))
