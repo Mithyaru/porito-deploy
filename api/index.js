@@ -10,7 +10,7 @@ app.use(cors())
 app.get('/', (req, res) => {
     let tagLine = req.query.tag
     let gameName = req.query.username
-res.json('Tentativa 2', tagLine, gameName)
+res.send('Tentativa 2', tagLine, gameName)
 }
 )
 
