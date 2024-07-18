@@ -10,12 +10,12 @@ app.use(cors())
 app.get('/', (req, res) => {
     let tagLine = req.query.tag
     let gameName = req.query.username
-res.send('Tentativa 3' + tagLine + gameName)
+res.json('Tentativa 3' + tagLine + gameName)
 
 }
 )
 
-app.get('/about', (req, res) => res.send('About Page Route'));
+app.get('/about', (req, res) => res.json('About Page Route'));
 
 
 app.listen(port, () => console.log('server is running on ' + port))
