@@ -7,6 +7,9 @@ const app = express()
 
 app.use(cors({
     origin: '*',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    allowedHeaders: '*',
+    credentials: true,
 }))
 
 app.get('/', (req, res) => {
