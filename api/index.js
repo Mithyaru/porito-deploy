@@ -1,23 +1,16 @@
-const express = require('express')
-const cors = require('cors')
-const axios = require('axios')
+let express = require('express')
+let cors = require('cors')
+let axios = require('axios')
 const port = process.env.PORT || 4000
 
-const app = express()
+let championURL = 'https://ddragon.leagueoflegends.com/cdn/14.11.1/data/pt_BR/champion.json'
+let globalMaestry = []
+let summonerID = ''
 
-app.use(cors({
-    origin: '*',
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    allowedHeaders: '*',
-    credentials: true,
-}))
 
-app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*'); // Allow any origin
-  res.header('Access-Control-Allow-Methods', 'GET,HEAD,PUT,PATCH,POST,DELETE'); // Allow methods
-  res.header('Access-Control-Allow-Headers', 'Content-Type,Authorization'); // Allow headers
-  next();
-});
+let app = express()
+
+app.use(cors())
 
 app.get('/', (req, res) => {
     let tagLine = req.query.tag
@@ -28,6 +21,7 @@ res.json('Tentativa 3' + tagLine + gameName)
 )
 
 app.get('/about', (req, res) => res.json('About Page Route'));
+
 
 
 app.listen(port, () => console.log('server is running on ' + port))
