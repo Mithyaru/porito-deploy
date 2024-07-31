@@ -5,7 +5,9 @@ const port = process.env.PORT || 4000
 
 const app = express()
 
-app.use(cors())
+app.use(cors({
+    origin: '*',
+}))
 
 app.get('/', (req, res) => {
     let tagLine = req.query.tag
