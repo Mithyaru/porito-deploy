@@ -13,7 +13,7 @@ const MaestryData = ({ userMaestry, userMaestryInfo }) => {
                                 {userMaestryInfo.map((maestryInfo, index) =>
                                     <div className='InfoContainer' key={index}>
                                         <div className='maestria ' >
-                                            <img className='maestryImg' width="45" alt="aaa" src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/champion/' + maestryInfo.image.full}></img>
+                                            <img className='maestryImg' width="45" alt="aaa" src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/' + maestryInfo.image.full}></img>
                                             
                                             <div className='maestryIcon'>
                                                 {userMaestry[index].championLevel >= '10' ?
