@@ -13,7 +13,7 @@ const MainUser = ({ userData, riotUser, userRank, gameList }) => {
             <div className='UserDataContainer'>
               <div className='infoUser'>
                 <div className='Icon'>
-                  <img className='pficon' width="110" alt="aaa" src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/profileicon/' + userData.profileIconId + '.png'}></img>
+                  <img className='pficon' width="110" alt="aaa" src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/profileicon/' + userData.profileIconId + '.png'}></img>
                   <div className='Level'>
                     <span>
                       {userData.summonerLevel}
