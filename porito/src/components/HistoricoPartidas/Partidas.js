@@ -42,7 +42,7 @@ const Partidas = ({ gameList, userData, riotUser }) => {
 
                                 <div className='playerPrinp'>
                                   <span>{data.riotIdGameName}</span>
-                                  <img alt="a" width='45' src={'https://ddragon.leagueoflegends.com/cdn/14.12.1/img/champion/' + data.championName + '.png'}></img>
+                                  <img alt="a" width='45' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/' + data.championName + '.png'}></img>
                                   <span className='champGameLvl'>{data.champLevel}</span>
                                 </div>
                                 <div className='champStatData'>
@@ -59,13 +59,13 @@ const Partidas = ({ gameList, userData, riotUser }) => {
                                 </div>
                               </div>
                               <div className='playerItens'>
-                                {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item0 + '.png'} width='25'></img>}
-                                {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item1 + '.png'} width='25'></img>}
-                                {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item2 + '.png'} width='25'></img>}
-                                {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item3 + '.png'} width='25'></img>}
-                                {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item4 + '.png'} width='25'></img>}
-                                {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item5 + '.png'} width='25'></img>}
-                                {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item6 + '.png'} width='25'></img>}
+                                {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item0 + '.png'} width='25'></img>}
+                                {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item1 + '.png'} width='25'></img>}
+                                {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item2 + '.png'} width='25'></img>}
+                                {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item3 + '.png'} width='25'></img>}
+                                {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item4 + '.png'} width='25'></img>}
+                                {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item5 + '.png'} width='25'></img>}
+                                {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item6 + '.png'} width='25'></img>}
                               </div>
                               <br></br>
 
@@ -86,7 +86,7 @@ const Partidas = ({ gameList, userData, riotUser }) => {
 
                               <div className='PlayerList'>
                                 <div className='playerPrinp'>
-                                  <img alt="a" width='18' height='18' src={'https://ddragon.leagueoflegends.com/cdn/14.12.1/img/champion/' + data.championName + '.png'}></img>
+                                  <img alt="a" width='18' height='18' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/' + data.championName + '.png'}></img>
                                   <span>{data.riotIdGameName}</span>
                                 </div>
                                 <div className='champPlayerData'>
@@ -99,13 +99,13 @@ const Partidas = ({ gameList, userData, riotUser }) => {
 
                                 </div>
                                 <div className='playerItensData'>
-                                  {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item0 + '.png'} width='15'></img>}
-                                  {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item1 + '.png'} width='15'></img>}
-                                  {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item2 + '.png'} width='15'></img>}
-                                  {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item3 + '.png'} width='15'></img>}
-                                  {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item4 + '.png'} width='15'></img>}
-                                  {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item5 + '.png'} width='15'></img>}
-                                  {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item6 + '.png'} width='15'></img>}
+                                  {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item0 + '.png'} width='15'></img>}
+                                  {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item1 + '.png'} width='15'></img>}
+                                  {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item2 + '.png'} width='15'></img>}
+                                  {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item3 + '.png'} width='15'></img>}
+                                  {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item4 + '.png'} width='15'></img>}
+                                  {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item5 + '.png'} width='15'></img>}
+                                  {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item6 + '.png'} width='15'></img>}
                                 </div>
                               </div>
 
@@ -118,7 +118,7 @@ const Partidas = ({ gameList, userData, riotUser }) => {
                           {gameList.info.participants.filter(data => data.teamId === 200).map((data, participantsIndex) =>
                             <div className='PlayerList'>
                             <div className='playerPrinp'>
-                              <img alt="a" width='18' height='18' src={'https://ddragon.leagueoflegends.com/cdn/14.12.1/img/champion/' + data.championName + '.png'}></img>
+                              <img alt="a" width='18' height='18' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/' + data.championName + '.png'}></img>
                               <span>{data.riotIdGameName}</span>
                             </div>
                             <div className='champPlayerData'>
@@ -131,13 +131,13 @@ const Partidas = ({ gameList, userData, riotUser }) => {
 
                             </div>
                             <div className='playerItensData'>
-                              {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item0 + '.png'} width='15'></img>}
-                              {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item1 + '.png'} width='15'></img>}
-                              {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item2 + '.png'} width='15'></img>}
-                              {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item3 + '.png'} width='15'></img>}
-                              {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item4 + '.png'} width='15'></img>}
-                              {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item5 + '.png'} width='15'></img>}
-                              {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.11.1/img/item/' + data.item6 + '.png'} width='15'></img>}
+                              {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item0 + '.png'} width='15'></img>}
+                              {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item1 + '.png'} width='15'></img>}
+                              {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item2 + '.png'} width='15'></img>}
+                              {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item3 + '.png'} width='15'></img>}
+                              {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item4 + '.png'} width='15'></img>}
+                              {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item5 + '.png'} width='15'></img>}
+                              {<img alt='' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/item/' + data.item6 + '.png'} width='15'></img>}
                             </div>
                           </div>
 
