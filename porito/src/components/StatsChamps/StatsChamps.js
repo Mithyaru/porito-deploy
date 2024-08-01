@@ -66,7 +66,7 @@ const StatsChamps = ({ userData, gameList }) => {
                 {championStats.map((champion, index) => (
                     <div key={index} className="columnChampInfo">
 
-                        <img alt="a" width='35' src={'https://ddragon.leagueoflegends.com/cdn/14.12.1/img/champion/' + champion.championName + '.png'}></img>
+                        <img alt="a" width='35' src={'https://ddragon.leagueoflegends.com/cdn/14.15.1/img/champion/' + champion.championName + '.png'}></img>
                         <div>KDA - {champion.kdaRatio.toFixed(1)}</div>
                         <div>{champion.winRate.toFixed(1)}%({champion.wins}V - {champion.losses}D)</div>
 
