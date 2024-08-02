@@ -13,9 +13,7 @@ let app = express()
 app.use(cors())
 
 app.get('/', (req, res) => {
-    let tagLine = req.query.tag
-    let gameName = req.query.username
-res.json('Tentativa 3' + tagLine + gameName)
+res.send('Proxy funcionando')
 
 }
 )
