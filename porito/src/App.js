@@ -70,8 +70,10 @@ function App() {
           if (response.data.status === 200) {
             setUserRank(response.data)
             console.log(response.data.status)
+            console.log("condição correta")
           } else {
             setUserRank(null)
+            console.log("condição incorreta")
           }
         }).catch(function (error) {
           setUserRank(error)
