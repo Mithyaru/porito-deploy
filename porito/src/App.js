@@ -66,6 +66,7 @@ function App() {
 
       await axios.get('https://porito-deploy.vercel.app/ranked')
         .then(function (response) {
+          console.log(response)
           if (response.data.status === 200) {
             setUserRank(response.data)
             console.log(response.data.status)
